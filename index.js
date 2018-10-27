@@ -7,7 +7,7 @@ if (!process.env.GITHUB_API_TOKEN) {
 gitCommitPush({
     // commit to https://github.com/azu/commit-to-github-test
     owner: "psichelp",
-    repo: "Gestao",dsdsd
+    repo: "Gestao",
     // commit files
     files: [
         { path: "index.js", content: fs.readFileSync(__dirname + "/index.js", "utf-8") },
